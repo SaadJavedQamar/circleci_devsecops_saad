@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: saadqamar/circleci_ali_dev_secops_image
+      - image: saadqamar/circleci_devsecops_image:tagname
     steps:
       - checkout
       - run:
