@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: saadqamar/circleci_devsecops_image:latest
+      - image: saadqamar/circleci_devsecops_image
     steps:
       - checkout
       - run:
